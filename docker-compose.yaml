@@ -8,4 +8,4 @@ services:
         ports:
             - "8200:5000"
         restart: unless-stopped    
-        command: /data -a admin:p4ssw0rd@/:rw
+        command: /data -A -a admin:p4ssw0rd@/:rw
