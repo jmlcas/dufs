@@ -1,4 +1,4 @@
-ervices:
+services:
 
     dufs:
         image: sigoden/dufs:latest
