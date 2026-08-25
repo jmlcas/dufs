@@ -2,10 +2,10 @@ services:
 
     dufs:
         image: sigoden/dufs:latest
-        container_name: dufs    
+        container_name: dufs  
         volumes:
             - ./dufs-data:/data
         ports:
             - "8200:5000"
-        restart: unless-stopped    
+        restart: unless-stopped
         command: /data -A -a admin:p4ssw0rd@/:rw
